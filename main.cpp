@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    // Creating two Subscriber objects
+    // Creating two Subscriber objects (each contains SimProfile and Wallet objects)
     Subscriber s1("310260991820", "0300-1234567", "Ayesha", "Prepaid", true, 15.0);
     Subscriber s2("310260991821", "0321-7654321", "Bilal", "Postpaid", false, 0.0);
 
